@@ -34,6 +34,6 @@ void PrintArray(string[] final)
     Console.Write("]");
 }
 
-//  string [] NewArray1 = NewArray(Array1);
+ string [] NewArray1 = NewArray(Array1);
 
-// PrintArray (NewArray1);
+PrintArray (NewArray1);
