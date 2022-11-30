@@ -29,7 +29,7 @@ void PrintArray(string[] final)
     Console.Write("[");
     for (int i = 0; i < final[i].Length; i++)
     {
-        if (i < final[i].Length) Console.Write($"{final[i]}, ");
+        if (i < final[i].Length) Console.Write($"{final[i]},");
     }
     Console.Write("]");
 }
