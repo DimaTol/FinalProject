@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Дмитрий\\Desktop\\GB\\Новая папка (2)\\FinalProject\\FinalProject.csproj": {}
+    "C:\\Users\\Dmitriy\\Desktop\\PYTHON\\final\\FinalProject\\FinalProject\\FinalProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Дмитрий\\Desktop\\GB\\Новая папка (2)\\FinalProject\\FinalProject.csproj": {
+    "C:\\Users\\Dmitriy\\Desktop\\PYTHON\\final\\FinalProject\\FinalProject\\FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Дмитрий\\Desktop\\GB\\Новая папка (2)\\FinalProject\\FinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\Dmitriy\\Desktop\\PYTHON\\final\\FinalProject\\FinalProject\\FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "C:\\Users\\Дмитрий\\Desktop\\GB\\Новая папка (2)\\FinalProject\\FinalProject.csproj",
-        "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Дмитрий\\Desktop\\GB\\Новая папка (2)\\FinalProject\\obj\\",
+        "projectPath": "C:\\Users\\Dmitriy\\Desktop\\PYTHON\\final\\FinalProject\\FinalProject\\FinalProject.csproj",
+        "packagesPath": "C:\\Users\\Dmitriy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dmitriy\\Desktop\\PYTHON\\final\\FinalProject\\FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Дмитрий\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dmitriy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
