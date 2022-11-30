@@ -7,22 +7,22 @@
 string [] Array1 = new string [6] {"hello", "2", "world", ":-)", "yes", "string",};
 
 
-// string[] NewArray(string[] newarray)
-// {
+string[] NewArray(string[] newarray)
+{
 
-//     int count = 0;
-//     for (int i = 0; i < newarray.Length; i++)
-//     {  
-//         if (newarray[i].Length <= 3)
-//         {
-//             newarray[count] = newarray[i];
-//             count++;
-//         }
+    int count = 0;
+    for (int i = 0; i < newarray.Length; i++)
+    {  
+        if (newarray[i].Length <= 3)
+        {
+            newarray[count] = newarray[i];
+            count++;
+        }
 
-//     }
-//     return newarray;
+    }
+    return newarray;
 
-// }
+}
 
 // void PrintArray(string[] final)
 // {
