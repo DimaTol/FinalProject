@@ -4,7 +4,7 @@
 // При решении не рекомендуется пользоваться коллекциями, 
 // лучше обойтись исключительно массивами.
 
-string[] Array1 = new string[8] { "hello", "2", "world", ":-)", "-2", "yes", "strong", "ok" };
+string[] Array1 = new string[6] { "hello", "2", "world", ":-)", "yes", "ok" };
 
 string[] ArrayLength(string[] Array1)
 {
@@ -37,5 +37,19 @@ string[] NewArray(string[] arr1, string[] arr2)
 
     }
     return arr2;
-
 }
+
+void PrintArray(string[] final)
+{
+    Console.Write("[ ");
+    for (int i = 0; i < final.Length; i++)
+    {
+        if (i < final.Length - 1) Console.Write($"{final[i]},  ");
+        else Console.Write($"{final[i]}");
+    }
+    Console.Write(" ]");
+}
+
+string [] OldArray = ArrayLength (Array1);
+string [] NewArr = NewArray (Array1,OldArray);
+PrintArray (NewArr);
