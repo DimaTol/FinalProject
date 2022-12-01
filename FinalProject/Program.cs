@@ -22,3 +22,20 @@ string[] ArrayLength(string[] Array1)
 
     return Array2;
 }
+
+string[] NewArray(string[] arr1, string[] arr2)
+{
+
+    int count = default;
+    for (int i = 0; i < arr1.Length; i++)
+    {
+        if (arr1[i].Length <= 3)
+        {
+            arr2[count] = arr1[i];
+            count++;
+        }
+
+    }
+    return arr2;
+
+}
