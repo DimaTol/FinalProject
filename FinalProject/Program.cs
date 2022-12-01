@@ -4,36 +4,5 @@
 // При решении не рекомендуется пользоваться коллекциями, 
 // лучше обойтись исключительно массивами.
 
-string [] Array1 = new string [6] {"hello", "2", "world", ":-)", "yes", "string",};
+string[] Array1 = new string[8] { "hello", "2", "world", ":-)", "-2", "yes", "strong", "ok" };
 
-
-string[] NewArray(string[] newarray)
-{
-
-    int count = 0;
-    for (int i = 0; i < newarray.Length; i++)
-    {  
-        if (newarray[i].Length <= 3)
-        {
-            newarray[count] = newarray[i];
-            count++;
-        }
-
-    }
-    return newarray;
-
-}
-
-void PrintArray(string[] final)
-{
-    Console.Write("[");
-    for (int i = 0; i < final[i].Length; i++)
-    {
-        if (i < final[i].Length) Console.Write($"{final[i]},");
-    }
-    Console.Write("]");
-}
-
- string [] NewArray1 = NewArray(Array1);
-
-PrintArray (NewArray1);
